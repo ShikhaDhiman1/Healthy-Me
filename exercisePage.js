@@ -11,7 +11,7 @@ $w.onReady(function () {
     );
     xhr.setRequestHeader(
       "X-Api-Key",
-      "q7s2IpsZ5yhK5AjX0m4D7Q==pQnoLiFnhvkWeDtK"
+      ""
     );
     xhr.onload = function () {
       let data = JSON.parse(this.responseText);
